@@ -10,7 +10,7 @@ import cooking from "../assets/cooking.png"
 
 const Footer = () => {
   return (
-    <footer className="absolute left-8 bottom-0 right-8 ">
+    <footer className="ml-48 lg:ml-10 mr-52 lg:mr-10 whitespace-nowrap ">
       <div className="border-b-4"></div>
 
       <div className="p-2">

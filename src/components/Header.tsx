@@ -18,7 +18,7 @@ const Navbar = () => {
           <IoMdClose onClick={()=>setSidebarActive(!sidebarActive)} className="absolute right-0 top-6 w-10 h-5"/>
           <ul className="p-6 w-full font-bold text-lg flex flex-col justify-between flex-wrap">
             <li className=" hover:bg-slate-100 rounded-md"><a href="/">Home Page</a></li>
-            <li className="hover:bg-slate-100 rounded-md"><a href="/"></a><a href="">World</a></li>
+            <li className="hover:bg-slate-100 rounded-md"><a href="/"></a><a href="/">World</a></li>
             <li className="hover:bg-slate-100 rounded-md"><a href="/">Business</a></li>
             <li className="hover:bg-slate-100 rounded-md"><a href="/">U.S. Politics</a></li>
             <li className="hover:bg-slate-100 rounded-md"><a href="/">U.S. News</a></li>
@@ -57,7 +57,7 @@ const Navbar = () => {
       <div className=" lg:p-4 lg:block hidden lg:mr-3">
         <FaUser />
       </div>
-      <div className="lg:hidden p-4 cursor-pointer">
+      <div className="lg:hidden p-4 cursor-pointer mx-auto">
         <button className=" bg-navBlue px-3 py-1 text-white rounded-md absolute top-3 xl:right-36 right-72 hover:bg-hoverBlue">
           PLAY SPELLING BEE
         </button>
