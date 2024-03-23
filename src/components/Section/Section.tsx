@@ -12,8 +12,8 @@ const Section = () => {
             <li className='px-2 border-r-2 hover:underline'><a href="Africa">ASIA</a></li>
             <li className='px-2 border-r-2 hover:underline'><a href="Africa">AUSTRALIA</a></li>
             <li className='px-2 border-r-2 hover:underline sm:hidden'><a href="Africa">CANADA</a></li>
-            <li className='px-2 border-r-2 hover:underline sm:hidden'><a href="Africa">EUROPE</a></li>
-            <li className='px-2 hover:underline sm:hidden'><a href="Africa">MIDDLE EAST</a></li>
+            <li className='px-2 hover:underline border-r-2 sm:hidden'><a href="Africa">EUROPE</a></li>
+            <li className='px-2 hover:underline md:hidden'><a href="Africa">MIDDLE EAST</a></li>
             <li className='px-2 hover:underline sm:block hidden'><a href="More">More</a></li>
         </ul>
     </div> 

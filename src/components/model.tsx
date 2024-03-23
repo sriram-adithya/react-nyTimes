@@ -1,11 +1,12 @@
 export interface Result {
-    created_date:string
-    multimedia:any;
-  uri: string;
-  url: string;
+created_date:string
+multimedia:any;
+uri: string;
+url: string;
   id: string;
   asset_id: number;
   source: string;
+  kicker: string;
   published_date: string;
   updated: string;
   section: string;

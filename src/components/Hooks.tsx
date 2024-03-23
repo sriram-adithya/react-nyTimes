@@ -9,7 +9,7 @@ const API_KEY: string = 'nv9lcfwnE6J3b2ouzof4W2Zdyx0WZ71g';
 interface FetchState {
     data: Data | null;
     loading: boolean;
-    error: Error | null;
+    error: Error | null | any;
   }
 
 interface Error {

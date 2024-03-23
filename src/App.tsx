@@ -1,15 +1,17 @@
 import React from "react";
-import Navbar from "./components/Header";
-import Footer from "./components/Footer";
-import Section from "./components/Section";
-import MainPage from "./components/MainPage";
+import Navbar from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Section from "./components/Section/Section";
+import MainPage from "./components/MainPage/MainPage";
+import MainPage2 from "./components/MainPage2/MainPage2";
 
 const App = () => {
   return (
-    <div>
+    <div className="h-auto w-full">
       <Navbar />
       <Section />
       <MainPage />
+      <MainPage2 />
       <Footer />
     </div>
   );
