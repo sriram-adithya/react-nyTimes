@@ -15,64 +15,84 @@ const MainPage2 = () => {
         {data?.results?.[4]?.kicker === "" ? data?.results?.[4]?.kicker : ""}
       </div>
 
-      <div className="grid grid-cols-5 grid-rows-1 pb-8 pt-4">
+      <div className="grid grid-cols-5 lg:grid-cols-1 pb-8 pt-4 lg:border-b-2 lg:border-t-2">
         {/* grid 1 */}
-        <div className="border-r-2 pr-[25px]">
+        <div className="border-r-2 pr-[25px] lg:border-b-2 lg:pb-[20px] lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[4]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
           <h3 className="font-bold text-wrap hover:underline">
-            <a href="/">
-              {data?.results?.[4]?.title}
-            </a>
+            <a href="/">{data?.results?.[4]?.title}</a>
           </h3>
+          <p className="text-wrap lg:block hidden lg:pt-4">
+            {data?.results?.[4]?.abstract}
+          </p>
         </div>
 
         {/* grid 2 */}
 
-        <div className="px-[25px] border-r-2">
+        <div className="px-[25px] lg:px-0 lg:py-[30px] border-r-2 lg:border-b-2 lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[5]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
           <h3 className="font-bold text-wrap hover:underline">
-            <a href="/">{data?.results?.[5]?.title}</a></h3>
+            <a href="/">{data?.results?.[5]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden lg:pt-4">
+            {data?.results?.[5]?.abstract}
+          </p>
         </div>
 
         {/* grid 3 */}
 
-        <div className="px-[25px] border-r-2">
+        <div className="px-[25px] lg:px-0 lg:py-[30px] border-r-2 lg:border-b-2 lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[6]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap"><a href="/">{data?.results?.[6]?.title}</a></h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[6]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden lg:pt-4">
+            {data?.results?.[6]?.abstract}
+          </p>
         </div>
 
         {/* grid 4 */}
 
-        <div className="px-[25px] border-r-2">
+        <div className="px-[25px] lg:px-0 lg:py-[30px] border-r-2 lg:border-b-2 lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[7]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap">{data?.results?.[7]?.title}</h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[7]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden lg:pt-4">
+            {data?.results?.[7]?.abstract}
+          </p>
         </div>
 
         {/* grid 5 */}
 
-        <div className="pl-[25px]">
+        <div className="pl-[25px] lg:pl-0 lg:py-[30px]">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[8]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap">{data?.results?.[8]?.title}</h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[8]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden lg:pt-4">
+            {data?.results?.[8]?.abstract}
+          </p>
         </div>
       </div>
 
@@ -80,9 +100,9 @@ const MainPage2 = () => {
 
       {/* Second Row */}
 
-      <div className="grid grid-cols-5 grid-rows-1 pt-8 pb-12">
+      <div className="grid grid-cols-5 lg:grid-cols-1 pt-8 pb-12">
         {/* grid 1 */}
-        <div className="border-r-2 pr-[25px]">
+        <div className="border-r-2 pr-[25px] lg:border-b-2 lg:pb-[20px] lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[9]?.multimedia?.[0]?.url ?? ""}
@@ -93,50 +113,73 @@ const MainPage2 = () => {
               {data?.results?.[9]?.title}
             </a>
           </h3>
+          <p className="text-wrap lg:block hidden">
+            {data?.results?.[9]?.abstract}
+          </p>
         </div>
 
         {/* grid 2 */}
 
-        <div className="px-[25px] border-r-2">
+        <div className="px-[25px] lg:px-0 lg:py-[30px] border-r-2 lg:border-b-2 lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[10]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap">{data?.results?.[10]?.title}</h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[10]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden">
+            {data?.results?.[10]?.abstract}
+          </p>
         </div>
 
         {/* grid 3 */}
 
-        <div className="px-[25px] border-r-2">
+        <div className="px-[25px] lg:px-0 lg:py-[30px] border-r-2 lg:border-b-2 lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[11]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap">{data?.results?.[11]?.title}</h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[11]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden">
+            {data?.results?.[11]?.abstract}
+          </p>
         </div>
 
         {/* grid 4 */}
 
-        <div className="px-[25px] border-r-2">
+        <div className="px-[25px] lg:px-0 lg:py-[30px] border-r-2 lg:border-b-2 lg:border-r-0">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[12]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap">{data?.results?.[12]?.title}</h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[12]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden">
+            {data?.results?.[12]?.abstract}
+          </p>
         </div>
 
         {/* grid 5 */}
 
-        <div className="pl-[25px]">
+        <div className="pl-[25px] lg:pl-0 lg:py-[30px]">
           <img
             className="w-[240px] h-[200px]"
             src={data?.results?.[13]?.multimedia?.[0]?.url ?? ""}
             alt="article"
           />
-          <h3 className="font-bold text-wrap">{data?.results?.[13]?.title}</h3>
+          <h3 className="font-bold text-wrap hover:underline">
+            <a href="/">{data?.results?.[13]?.title}</a>
+          </h3>
+          <p className="text-wrap lg:block hidden">
+            {data?.results?.[13]?.abstract}
+          </p>
         </div>
       </div>
       <div className="border-b-2 border-black "></div>
@@ -144,20 +187,3 @@ const MainPage2 = () => {
   );
 };
 export default MainPage2;
-
-{
-  /* <div>
-<div className='ml-48 lg:ml-10 mr-52 lg:mr-10 whitespace-nowrap'>
-
-{data && data.results?<div>{loading}</div> :""}
-<p className='border-t-2 lg:hidden block'></p>
-<div className='uppercase'>
-{data?.results?.[4]?.kicker}
-THE SATURDAY PROFILE
-</div>   
-<div className='grid grid-cols-2 grid-rows-5'>
-<img className='w-[100px] h-[100px]' src={data?.results?.[4]?.multimedia?.[0]?.url?? ""} alt="article" />
-</div>
-</div>
-</div> */
-}
