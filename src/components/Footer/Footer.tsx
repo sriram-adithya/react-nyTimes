@@ -1,8 +1,8 @@
-import logo from "/react-nyTimes/src/assets/The_New_York_Times_logo.png";
-import document from "/react-nyTimes/src/assets/image.png";
-import games from "/react-nyTimes/src/assets/games.png";
-import digital from "/react-nyTimes/src/assets/digital.png";
-import cooking from "/react-nyTimes/src/assets/cooking.png";
+import logo from "../../assets/The_New_York_Times_logo.png"
+import document from "../../assets/image.png"
+import games from "../../assets/games.png"
+import digital from "../../assets/digital.png"
+import cooking from "../../assets/cooking.png"
 
 
 // Note: YET TO REPLACE ANCHOR ELEMENT IN ALL LI TAG

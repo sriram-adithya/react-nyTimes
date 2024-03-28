@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "/react-nyTimes/src/assets/The_New_York_Times_logo.png";
+import logo from "../../assets/The_New_York_Times_logo.png";
 import { HiMiniBars3 } from "react-icons/hi2";
 import { FaUser } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
