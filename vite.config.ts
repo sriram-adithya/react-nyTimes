@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
     build: {
-      base : '/public_html/build/',
       rollupOptions: {
         external: [
           '/react-nyTimes/src/assets/The_New_York_Times_logo.png',
